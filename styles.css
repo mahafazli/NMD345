@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 0 10px; /* Adjust the margin as needed */
     position: relative;
 }
 
@@ -56,7 +56,7 @@ nav ul ul {
 
 li:hover ul {
     display: flex;
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 10px;
     background-color: #FFFAF0;
     border-radius: 5px;
 }
