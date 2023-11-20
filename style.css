@@ -7,7 +7,7 @@ body {
 
 header {
     font-family: Garamond;
-    background-color: #E9DCC9;
+    background-color: green;
     color: #5C4033;
     display: flex;
     justify-content: space-between;
