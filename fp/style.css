@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: Garamond;
+    background-color: #E9DCC9;
+    color: #5C4033;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    padding: 0 30px;
+    background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    padding:20px;
+    border-right: .2em solid white;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    color:white;
+    text-align: center;
+    font:garamond;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .60 step-end ;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+
+  
+
+#about {
+    background-color: #E9DCC9; 
+    color: #5C4033;
+    margin: 150px auto;
+    padding: 10px;
+}
+
+.more-button {
+    background-color:#5C4033;
+    color: white;
+    font-family: Garamond;
+    border: none;
+    border-radius:9px;
+    padding: 10px;
+    width:80px;
+    cursor: pointer;
+   
+}
+  
+#portfolio {
+
+    background-color: #E9DCC9; 
+    color: #5C4033;
+    margin: 200px 0;
+    padding: 10px;
+  
+}
+
+
+#contact {
+    text-align: center;
+    background-color: #E9DCC9;
+    color: #5C4033;
+    margin: 200px 0;
+    padding: 10px;
+}
+
+
+nav ul {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 4px; /* Adjust the margin as needed */
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #5C4033; 
+}
+
+li {
+    position: relative;
+    float: left;
+}
+
+nav ul ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+
+li:hover ul {
+    display: flex;
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #FFFAF0;
+    border-radius: 5px;
+}
+
+nav ul ul li {
+    display: block;
+    padding: 5px 0;
+    white-space: nowrap;
+}
+
