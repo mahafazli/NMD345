@@ -7,12 +7,12 @@ body {
 
 header {
     font-family: Garamond;
-    background-color: green;
+    background-color: #E9DCC9;
     color: #5C4033;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
+
     height: auto;
     margin: 0;
     padding: 0 30px;
