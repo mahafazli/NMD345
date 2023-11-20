@@ -1,0 +1,184 @@
+/* css for nmd200*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    font-family: Garamond;
+    background-color: #E9DCC9;
+    color: #5C4033;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    padding: 0 30px;
+    background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nmd200-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+
+#nmd200-content h1{
+    color:white;
+    font-size:2em;
+    text-align:center;
+}
+#cos420-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+
+#cos420-content h1{
+    color:white;
+    font-size:2em;
+    text-align:center;
+}
+
+#nmd370-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+
+#nmd370-content h1{
+    color:white;
+    font-size:2em;
+    text-align:center;
+}
+#portf-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+
+#portf-content h1{
+    color:white;
+    font-size:2em;
+    text-align:center;
+}
+
+#about-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+#about-content h1{
+    text-align: center;
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+
+#contact-content{
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+}
+#contact-content h1{
+    text-align: center;
+    font-family: Garamond;
+    color: white;
+    padding:15px;
+    
+}
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 4px; /* Adjust the margin as needed */
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #5C4033; 
+}
+
+li {
+    position: relative;
+    float: left;
+}
+
+nav ul ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+
+li:hover ul {
+    display: flex;
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #FFFAF0;
+    border-radius: 5px;
+}
+
+nav ul ul li {
+    display: block;
+    padding: 5px 0;
+    white-space: nowrap;
+}
+
+
+.rec {
+    background-color: #E9DCC9;
+    opacity: 0.9;
+    border-radius: 10px;
+    height: 800px; 
+    width: 90%; 
+    padding:15px;
+    margin: 20px auto; 
+    overflow: scroll;
+    
+}
+
+ p{
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 5px 50px;
+    font-size: 15px;
+    
+}
+a{
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 5px 50px;
+    color:white;
+}
+
+h2{
+    
+    text-align: left;
+    padding: 5px 50px;
+}
