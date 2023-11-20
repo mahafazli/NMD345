@@ -12,7 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+
+    height: auto;
     margin: 0;
     padding: 0 30px;
     background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
