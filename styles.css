@@ -85,16 +85,33 @@ header {
 
 #contact-content{
     font-family: Garamond;
-    color: white;
-    padding:15px;
+    color: #5C4033; 
+    background-color: #E9DCC9;
+    height: 450px;
+    width: 1000px;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
+
 #contact-content h1{
     text-align: center;
     font-family: Garamond;
-    color: white;
-    padding:15px;
-    
+    color: #5C4033; 
+    padding: 20px;
+    margin-bottom: 5px; 
+  
 }
+#contact-content a {
+    margin-bottom: 5px; 
+    display: block; 
+    color: #5C4033; 
+    font-weight: bold;
+}
+
 
 
 body {
@@ -170,7 +187,7 @@ nav ul ul li {
     
 }
 a{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: left;
     padding: 5px 50px;
     color:white;
