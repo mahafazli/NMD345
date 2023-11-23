@@ -1,4 +1,4 @@
-/* css for nmd200*/
+/* other pages css style sheet */
 
 body {
     background-color: black;
@@ -19,7 +19,7 @@ header {
     height: 100px;
     margin: 0;
     padding: 0 30px;
-    background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
+    background-image:url(https://mahaaf.me/NMD345/logo3.png); 
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -111,8 +111,6 @@ header {
     color: #5C4033; 
     font-weight: bold;
 }
-
-
 
 body {
     background-color: black;

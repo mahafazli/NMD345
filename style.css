@@ -1,8 +1,11 @@
+/* index css style sheet */
+
 body {
     background-color: black;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 header {
@@ -16,22 +19,54 @@ header {
     height: 10px;
     margin: 0;
     padding: 0 20px;
-    background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
+    background-image:url(https://mahaaf.me/NMD345/logo2.png); 
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.container {
+    display: flex;
+}
+
+.image-container {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 472px;
+    height: 472px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    padding: 20px;
+}
+
+.image-container2 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.image-container2 img {
+    width: 485px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    padding: 20px;
+   
+}
+
 .text {
     overflow: hidden; 
-    padding:20px;
-    border-right: .2em solid white;
+    padding: 30px 80px;
+    border-right: 0.1em solid white;
     white-space: nowrap; 
-    margin: 0 auto; 
+    margin: 70px auto; 
     letter-spacing: .15em; 
     color:white;
     text-align: center;
     font:garamond;
+    font-size: 1.5em;
     animation: 
     typing 3.5s steps(40, end),
     blink-caret .60 step-end ;
@@ -45,9 +80,12 @@ header {
   
 
 #about {
-    background-color: #E9DCC9; 
+    background-color: #E9DCC9;
+    width: 617px;
+    height: 133px;
+    border-radius: 20px;
     color: #5C4033;
-    margin: 150px auto;
+    margin: 90px auto;
     padding: 10px;
 }
 
@@ -58,8 +96,9 @@ header {
     border: none;
     border-radius:9px;
     padding: 10px;
-    width:80px;
     cursor: pointer;
+    width: 80px;
+    height: 44px;
    
 }
   
@@ -83,7 +122,7 @@ header {
 
 
 nav ul {
-    font-size: 15px;
+    font-size: 18px;
     list-style: none;
     display: flex;
     margin: 0;
