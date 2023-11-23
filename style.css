@@ -35,8 +35,8 @@ header {
 }
 
 .image-container img {
-    width: 472px;
-    height: 472px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
     border-radius: 75px;
     padding: 20px;
