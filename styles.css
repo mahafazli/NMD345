@@ -1,11 +1,10 @@
-/* other pages css style sheet */
+/* css for nmd200*/
 
 body {
     background-color: black;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    position: relative;
 }
 
 
@@ -20,7 +19,7 @@ header {
     height: 100px;
     margin: 0;
     padding: 0 30px;
-    background-image:url(https://mahaaf.me/NMD345/logo3.png); 
+    background-image:url(https://mahaaf.me/NMD345/logo3.png); /* maybe make it a little bigger*/
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +120,6 @@ body {
 }
 
 nav ul {
-    font-size: 18px;
     list-style-type: none; 
     padding: 0px;
     margin: 0;
@@ -186,15 +184,41 @@ nav ul ul li {
     font-size: 15px;
     
 }
+
 a{
     margin-bottom: 5px;
     text-align: left;
     padding: 5px 50px;
-    color:white;
+    color:#5C4033;
+    text-decoration: none;
 }
+
 
 h2{
     
     text-align: left;
     padding: 5px 50px;
+}
+
+h3{
+    
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 800px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 20px;
+    margin: 50px auto;
+    display:block;
+    background-color: #E9DCC9;
+    border-radius: 20px;
+    text-align: center;
+
 }
