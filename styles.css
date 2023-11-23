@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 
@@ -120,6 +121,7 @@ body {
 }
 
 nav ul {
+    font-size: 18px;
     list-style-type: none; 
     padding: 0px;
     margin: 0;
