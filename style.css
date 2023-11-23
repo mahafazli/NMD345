@@ -23,36 +23,7 @@ header {
     background-repeat: no-repeat;
 }
 
-.container {
-    display: flex;
-}
 
-.image-container {
-    width: 90%;
-    box-sizing: border-box;
-}
-
-.image-container img {
-    width: 472px;
-    height: 472px;
-    flex-shrink: 0;
-    border-radius: 75px;
-    padding: 20px;
-}
-
-.image-container2 {
-    width: 50%;
-    box-sizing: border-box;
-}
-
-.image-container2 img {
-    width: 485px;
-    height: 470px;
-    flex-shrink: 0;
-    border-radius: 75px;
-    padding: 20px;
-   
-}
 
 .text {
     overflow: hidden; 
