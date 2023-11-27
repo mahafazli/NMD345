@@ -1,4 +1,4 @@
-/* css for nmd200*/
+/* css for everything else*/
 
 body {
     background-color: black;
@@ -6,8 +6,6 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
-
-
 
 header {
     font-family: Garamond;
@@ -193,6 +191,10 @@ a{
     padding: 5px 50px;
     color:#5C4033;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 
