@@ -121,13 +121,14 @@ body {
 
 nav ul {
     font-size: 15px;
-    list-style-type: none; 
-    padding: 0px;
+    list-style: none;
+    display: flex;
     margin: 0;
+    padding: 0;
 }
 nav li {
     margin: 0 0px; 
-   
+    margin-right: 10px;
     position: relative;
 }
 

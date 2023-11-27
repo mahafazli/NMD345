@@ -107,6 +107,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+    padding: 5px 10px;
 }
 
 nav a:hover {
