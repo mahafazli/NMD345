@@ -31,19 +31,19 @@ header {
 
 .text {
     overflow: hidden; 
-    padding: 30px 80px;
-    border-right: 0.1em solid white;
+    padding: 30px 100px;
+    border-right: 0.02em solid white;
     white-space: nowrap; 
-    margin: 70px auto; 
+    margin-top: 150px; 
     letter-spacing: .15em; 
-    color:white;
+    color: white;
     text-align: center;
-    font:garamond;
+    font-family: garamond;
     font-size: 1.5em;
     animation: 
     typing 3.5s steps(40, end),
     blink-caret .60 step-end ;
-  }
+}
 
   @keyframes typing {
     from { width: 0 }
