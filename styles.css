@@ -22,7 +22,11 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.con {
+    background-color: #E9DCC9;
+    padding: 20px; 
+    margin-bottom: 15px; 
+}
 #nmd200-content{
     font-family: Garamond;
     color: white;
