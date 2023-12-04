@@ -192,7 +192,6 @@ a{
     color:#5C4033;
     text-decoration: none;
 }
-
 a:hover{
     text-decoration: underline;
 }
@@ -214,15 +213,67 @@ h3 a:hover {
     text-decoration: underline;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
 .box {
     width: 800px;
     height: 180px;
     flex-shrink: 0;
     padding: 20px;
-    margin: 50px auto;
-    display:block;
-    background-color: #E9DCC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C4033; ;
     border-radius: 20px;
     text-align: center;
+    margin: auto; 
+}
 
+#carousel {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+#frame {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#frieze {
+    height: 300px;
+    width: 700%;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
